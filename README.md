@@ -1,4 +1,4 @@
-# 出典
+# コードの出典は以下
 
 - AtCoderの問題・解答
 
@@ -9,7 +9,7 @@
   https://www.youtube.com/@evimalab
 
 
-- AtCoder 最速で緑になる 基礎・典型50問詳細解説のコード
+- AtCoder 最速で緑になる 基礎・典型50問詳細解説
 
   - AtCoder 最速で緑になる 基礎・典型50問詳細解説 サンプル
   https://qiita.com/sano192/items/6361ed72106cb6dd5843
