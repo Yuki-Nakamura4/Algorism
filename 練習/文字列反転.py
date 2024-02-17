@@ -1,3 +1,12 @@
+S = "ABCDE"
+
+rS = ""
+
+for i in range(-1, -1, -1):
+    rS += S[i]
+
+print(rS)
+
 # insertを使う
 S = "ABCDE"
 
