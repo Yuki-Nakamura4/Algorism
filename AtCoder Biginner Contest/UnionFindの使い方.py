@@ -1,6 +1,5 @@
 # 使いどころ: 連結成分の個数を求める問題
 
-
 class UnionFind:
     def __init__(self, n):
         self.n = n
