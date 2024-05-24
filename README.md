@@ -17,4 +17,7 @@
 - アルゴリズム実技検定
 
   - アルゴリズム実技検定 公式テキスト (エントリー～中級編)」解答例ソースコード
-  https://github.com/kenkoooo/pastbook-source-code
+    https://github.com/kenkoooo/pastbook-source-code
+
+- Paiza
+  https://paiza.jp/works/mondai 
