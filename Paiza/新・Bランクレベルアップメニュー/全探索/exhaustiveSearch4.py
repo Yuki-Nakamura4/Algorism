@@ -23,7 +23,7 @@ for perm in itertools.permutations(panels):
     opened_panel = [False] * 9
     tmp = 0 # パネルの並び方1つについての得点
     for i in range(9):
-        line = 0
+        line = 0 # パネルiを開けたことによってできたラインの数
         if perm[i] == 0:
             line += (opened_panel[1] and opened_panel[2]) # 両方trueなら1を足す
             line += (opened_panel[3] and opened_panel[6])
@@ -59,9 +59,9 @@ for perm in itertools.permutations(panels):
             line += (opened_panel[0] and opened_panel[4])
         
         if line > 0:
-            tmp += b[perm[i]][line - 1]
-        opened_panel[perm[i]] = True
+            tmp += b[perm[i]][line - 1] # 得点を加算
+        opened_panel[perm[i]] = True # パネルiを開けたことを記録
 
-    add = max(add, tmp)
+    add = max(add, tmp) # 現在の最大の得点と比較し、もし大きければ更新
 
 print(ans + add)
