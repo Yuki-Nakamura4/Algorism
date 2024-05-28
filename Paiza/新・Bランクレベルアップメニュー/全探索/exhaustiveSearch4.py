@@ -62,6 +62,6 @@ for perm in itertools.permutations(panels):
             tmp += b[perm[i]][line - 1] # 得点を加算
         opened_panel[perm[i]] = True # パネルiを開けたことを記録
 
-    add = max(add, tmp) # 現在の最大の得点と比較し、もし大きければ更新
+    add = max(add, tmp)
 
 print(ans + add)
